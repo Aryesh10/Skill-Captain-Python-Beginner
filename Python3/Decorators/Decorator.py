@@ -1,7 +1,6 @@
 
 def authorize(username):
-    """Decorator to check if a user is authorized to access a function."""
-    authorized_users = ["admin", "user1", "user2"]
+    authorized_users = ["admin", "Aryesh", "skillcaptain"]
 
     def decorator(func):
         def wrapper(*args, **kwargs):
